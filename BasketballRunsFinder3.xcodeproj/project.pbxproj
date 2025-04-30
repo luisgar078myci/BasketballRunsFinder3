@@ -14,6 +14,11 @@
 		A526CFF92DB6119C006545A6 /* BasketballRunsFinder3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A526CFF82DB6119C006545A6 /* BasketballRunsFinder3Tests.swift */; };
 		A526D0032DB6119C006545A6 /* BasketballRunsFinder3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A526D0022DB6119C006545A6 /* BasketballRunsFinder3UITests.swift */; };
 		A526D0052DB6119C006545A6 /* BasketballRunsFinder3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A526D0042DB6119C006545A6 /* BasketballRunsFinder3UITestsLaunchTests.swift */; };
+		A526D0132DB6124C006545A6 /* ViewA.swift in Sources */ = {isa = PBXBuildFile; fileRef = A526D0122DB6124C006545A6 /* ViewA.swift */; };
+		A526D0152DB6125D006545A6 /* ViewB.swift in Sources */ = {isa = PBXBuildFile; fileRef = A526D0142DB6125D006545A6 /* ViewB.swift */; };
+		A526D0172DB61279006545A6 /* ViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A526D0162DB61279006545A6 /* ViewC.swift */; };
+		A526D0192DB61352006545A6 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A526D0182DB61352006545A6 /* LocationDetailView.swift */; };
+		A526D01B2DB61371006545A6 /* GymLocationsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A526D01A2DB61371006545A6 /* GymLocationsStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		A526CFFE2DB6119C006545A6 /* BasketballRunsFinder3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasketballRunsFinder3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A526D0022DB6119C006545A6 /* BasketballRunsFinder3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketballRunsFinder3UITests.swift; sourceTree = "<group>"; };
 		A526D0042DB6119C006545A6 /* BasketballRunsFinder3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketballRunsFinder3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A526D0122DB6124C006545A6 /* ViewA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewA.swift; sourceTree = "<group>"; };
+		A526D0142DB6125D006545A6 /* ViewB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewB.swift; sourceTree = "<group>"; };
+		A526D0162DB61279006545A6 /* ViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewC.swift; sourceTree = "<group>"; };
+		A526D0182DB61352006545A6 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		A526D01A2DB61371006545A6 /* GymLocationsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymLocationsStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +104,7 @@
 		A526CFE62DB6119B006545A6 /* BasketballRunsFinder3 */ = {
 			isa = PBXGroup;
 			children = (
+				A526D0112DB6123D006545A6 /* views */,
 				A526CFE72DB6119B006545A6 /* BasketballRunsFinder3App.swift */,
 				A526CFE92DB6119B006545A6 /* ContentView.swift */,
 				A526CFEB2DB6119C006545A6 /* Assets.xcassets */,
@@ -125,6 +136,18 @@
 				A526D0042DB6119C006545A6 /* BasketballRunsFinder3UITestsLaunchTests.swift */,
 			);
 			path = BasketballRunsFinder3UITests;
+			sourceTree = "<group>";
+		};
+		A526D0112DB6123D006545A6 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				A526D0122DB6124C006545A6 /* ViewA.swift */,
+				A526D0142DB6125D006545A6 /* ViewB.swift */,
+				A526D0162DB61279006545A6 /* ViewC.swift */,
+				A526D0182DB61352006545A6 /* LocationDetailView.swift */,
+				A526D01A2DB61371006545A6 /* GymLocationsStore.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +281,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A526CFEA2DB6119B006545A6 /* ContentView.swift in Sources */,
+				A526D0132DB6124C006545A6 /* ViewA.swift in Sources */,
+				A526D0192DB61352006545A6 /* LocationDetailView.swift in Sources */,
+				A526D0172DB61279006545A6 /* ViewC.swift in Sources */,
+				A526D01B2DB61371006545A6 /* GymLocationsStore.swift in Sources */,
 				A526CFE82DB6119B006545A6 /* BasketballRunsFinder3App.swift in Sources */,
+				A526D0152DB6125D006545A6 /* ViewB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

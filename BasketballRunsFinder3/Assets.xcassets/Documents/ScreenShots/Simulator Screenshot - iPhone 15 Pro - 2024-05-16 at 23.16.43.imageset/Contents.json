@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Simulator Screenshot - iPhone 15 Pro - 2024-05-16 at 23.16.43.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
